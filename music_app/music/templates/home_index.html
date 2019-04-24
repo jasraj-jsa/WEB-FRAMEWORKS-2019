@@ -1,0 +1,19 @@
+{% load render_bundle from webpack_loader %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome!!!</title>
+</head>
+<body>
+    <div id='app'>
+    <Sidebar></Sidebar>
+    </div>
+    {% render_bundle 'main' %}
+</body>
+</html>
+
+<style>
+        body{
+            background-color: rgb(30, 226, 177);
+        }
+</style>

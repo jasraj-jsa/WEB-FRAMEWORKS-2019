@@ -1,0 +1,19 @@
+{% load render_bundle from webpack_loader %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Albums</title>
+</head>
+<body>
+    <div id='app'>
+    <Albums></Albums>
+    </div>
+    {% render_bundle 'main' %}
+</body>
+</html>
+
+<style>
+body{
+    background-color: black;
+}
+</style>
