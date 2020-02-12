@@ -7,7 +7,7 @@ beautifulsoup4==4.7.1
 certifi==2018.11.29
 chardet==3.0.4
 constantly==15.1.0
-Django==2.1.7
+Django==2.2.10
 django-channels==0.7.0
 django-webpack-loader==0.6.0
 djangorestframework==3.9.2
