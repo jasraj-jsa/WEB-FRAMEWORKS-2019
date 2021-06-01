@@ -27,7 +27,7 @@ requests-oauthlib==1.2.0
 six==1.12.0
 soupsieve==1.8
 txaio==18.8.1
-urllib3==1.24.1
+urllib3==1.26.5
 vue==0.0.1
 zope.interface==4.6.0
 webpack
